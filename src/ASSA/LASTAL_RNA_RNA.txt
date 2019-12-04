@@ -1,0 +1,13 @@
+# Created on 2017-10-20
+# ---
+# From https://www.ncbi.nlm.nih.gov/pubmed/26930590
+# "In the substitution matrix, G:C, A:T and G:T matches were scored 4, 2 and 1, respectively.
+# These proportions have been widely used in the field of RNA-RNA interactions,
+# e.g. in miRNA target search algorithms [26]. Additionally, a mismatch was scored -6, gap
+# opening -20 and gap extension -8."
+    A   C   G   T
+A   2  -6  -6  -6
+C  -6   4  -6  -6
+G   1  -6   4  -6
+T  -6   1  -6   2
+
