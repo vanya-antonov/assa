@@ -3,8 +3,7 @@
 use strict;
 use warnings;
 
-my $SVN_STR  = '$Id$';
-my $ASSA_VER = '1.00';
+my $ASSA_VER = '1.0.1';
 
 ###
 # Ivan Antonov (antonov1986@gmail.com)
@@ -204,13 +203,10 @@ sub usage
 	my($msg) = @_;
 	$msg = $msg ? $msg."\n" : '';
 	
-	# $Id$
-	my($revision, $date) = $SVN_STR =~ /assa.*?\.pl\s+(\S+)\s+(\S+)/;
-	
 	my $script = File::Spec->splitpath($0);
 	
 	return"$msg
-ASSA, version $ASSA_VER, revision $revision ($date)
+ASSA, version $ASSA_VER
 
 USAGE:
     $script   [OPTIONS]   <QUERIES.fasta>   <TARGETS.fasta>   >   <INTERACTIONS.txt>
