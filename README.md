@@ -11,7 +11,7 @@ To use ASSA, you will need to install:
 * The 'RNAup' tool that is a part of the ViennaRNA package: https://www.tbi.univie.ac.at/RNA/
 
 # Installation
-## Download the latest [release from](https://github.com/vanya-antonov/assa/releases) and uncompress it
+## Download the [latest release](https://github.com/vanya-antonov/assa/releases) and uncompress it
 Copy the content of the src/ directory to a folder from your $PATH, for example:
 ```bash
 cp -rv  src/*  ~/bin
