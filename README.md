@@ -6,7 +6,7 @@ the thermodymanics-based tool RNAup for the hybridization energy calcluation.
 To use ASSA, you will need to install:
 * Perl
 * R: https://www.r-project.org/
-* The 'Statistics::R' Perl module and (optionally) Parallel::ForkManager to enable parallel computing
+* The 'Statistics::R' Perl module and (optionally) Parallel::ForkManager to enable parallel computing. On Ubuntu you can use `apt-get install libstatistics-r-perl` and `apt-get install libparallel-forkmanager-perl`, respectively
 * The 'lastdb' and 'lastal' tools that are parts of the LAST package: http://last.cbrc.jp/
 * The 'RNAup' tool that is a part of the ViennaRNA package: https://www.tbi.univie.ac.at/RNA/
 
