@@ -2,7 +2,10 @@
 ASSA is a pipeline for large scale RNA-RNA interaction prediction that utilizes
 the thermodymanics-based tool RNAup for the hybridization energy calcluation.
 
-# Prerequisites
+# Installation
+Example of ASSA installation in Google Colab is available here: https://colab.research.google.com/drive/1Gem_i761us0XvfGLpFs9nZYSnaLLCUUV?usp=sharing
+
+## Prerequisites
 To use ASSA, you will need to install:
 * Perl
 * R: https://www.r-project.org/
@@ -10,7 +13,6 @@ To use ASSA, you will need to install:
 * The 'lastdb' and 'lastal' tools that are parts of the LAST package: http://last.cbrc.jp/
 * The 'RNAup' tool that is a part of the ViennaRNA package: https://www.tbi.univie.ac.at/RNA/
 
-# Installation
 ## Download the [latest release](https://github.com/vanya-antonov/assa/releases) and uncompress it
 Copy the content of the src/ directory to a folder from your $PATH, for example:
 ```bash
