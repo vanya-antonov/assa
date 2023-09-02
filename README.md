@@ -11,7 +11,9 @@ Example of ASSA installation in Google Colab is available here: https://colab.re
 To use ASSA, you will need to install:
 * Perl
 * R: https://www.r-project.org/
+  * Conda installation: `conda install -c conda-forge r-base`
 * The 'Statistics::R' Perl module and (optionally) Parallel::ForkManager to enable parallel computing. On Ubuntu you can use `apt-get install libstatistics-r-perl` and `apt-get install libparallel-forkmanager-perl`, respectively
+  * Installation from conda: `conda install -c bioconda perl-statistics-r` and `conda install -c bioconda perl-parallel-forkmanager`
 * The 'lastdb' and 'lastal' tools that are parts of the LAST package: http://last.cbrc.jp/
   * Can be installed from [bioconda](https://anaconda.org/bioconda/last): `conda install -c bioconda last`
 * The 'RNAup' tool that is a part of the ViennaRNA package: https://www.tbi.univie.ac.at/RNA/
