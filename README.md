@@ -11,6 +11,7 @@ To use ASSA, you will need to install:
 * R: https://www.r-project.org/
 * The 'Statistics::R' Perl module and (optionally) Parallel::ForkManager to enable parallel computing. On Ubuntu you can use `apt-get install libstatistics-r-perl` and `apt-get install libparallel-forkmanager-perl`, respectively
 * The 'lastdb' and 'lastal' tools that are parts of the LAST package: http://last.cbrc.jp/
+  * Can be installed from [bioconda](https://anaconda.org/bioconda/last): `conda install -c bioconda last`
 * The 'RNAup' tool that is a part of the ViennaRNA package: https://www.tbi.univie.ac.at/RNA/
 
 ## Download the [latest release](https://github.com/vanya-antonov/assa/releases) and uncompress it
