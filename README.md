@@ -5,6 +5,8 @@ the thermodymanics-based tool RNAup for the hybridization energy calcluation.
 # Installation
 Example of ASSA installation in Google Colab is available here: https://colab.research.google.com/drive/1Gem_i761us0XvfGLpFs9nZYSnaLLCUUV?usp=sharing
 
+**TODO**: add ASSA to bioconda (see [RepeatMasker](https://github.com/bioconda/bioconda-recipes/tree/master/recipes/repeatmasker) recipe as example)
+
 ## Prerequisites
 To use ASSA, you will need to install:
 * Perl
