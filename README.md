@@ -13,6 +13,7 @@ To use ASSA, you will need to install:
 * The 'lastdb' and 'lastal' tools that are parts of the LAST package: http://last.cbrc.jp/
   * Can be installed from [bioconda](https://anaconda.org/bioconda/last): `conda install -c bioconda last`
 * The 'RNAup' tool that is a part of the ViennaRNA package: https://www.tbi.univie.ac.at/RNA/
+  * Can be installed from [bioconda](https://anaconda.org/bioconda/viennarna): `conda install -c bioconda viennarna`
 
 ## Download the [latest release](https://github.com/vanya-antonov/assa/releases) and uncompress it
 Copy the content of the src/ directory to a folder from your $PATH, for example:
